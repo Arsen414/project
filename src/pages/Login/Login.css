@@ -1,0 +1,6 @@
+.container {
+    background: #FFE5CD;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,11 @@
+.item__title {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #25211D;
+    margin: 0;
+    transition: .5s ease;
+}

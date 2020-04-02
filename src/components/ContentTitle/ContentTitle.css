@@ -1,0 +1,15 @@
+.content__title {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 41px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #25211D;
+}
+
+.content__title--bigger {
+    font-size: 36px;
+    line-height: 53px;
+}

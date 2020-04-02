@@ -1,0 +1,12 @@
+.App{
+    height: 100vh;
+    background:#FFE5CD ;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.wrapper{
+    max-width: 1070px;
+    margin: 0 auto;
+}

@@ -1,0 +1,44 @@
+.musician-page__track-play {
+    width: 11px;
+    height: 15px;
+}
+
+.musician-page__track {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-right: 40px;
+    align-items: center;
+    background: rgba(107, 149, 204, 0.25);
+    padding: 0 13px;
+    cursor: pointer;
+}
+
+.musician-page__track:hover {
+    background: #BCC1CD;
+}
+
+.musician-page__track-img {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    margin: 0 10px;
+}
+
+.musician-page__track-name {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #25436A;
+}
+
+.musician-page__track-container {
+    display: flex;
+    align-items: center;
+}
+
+.musician-page__track-options {
+    margin-left: 7px;
+}

@@ -1,0 +1,45 @@
+.nav {
+    background: rgba(14, 89, 177, 0.62);
+    height: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 7%;
+}
+.nav__buttons {
+    display: flex;
+}
+
+.nav__button {
+    margin-left: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #25211D;
+    cursor: pointer;
+}
+
+.nav__logo {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    .nav__button {
+        font-size: 13px;
+    
+    }
+    .nav__logo {
+        font-size: 13px;
+    
+    }
+}

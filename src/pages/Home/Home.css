@@ -1,0 +1,96 @@
+@media screen and (min-width: 780px) {
+    .background {
+        background: url(./imgs/photo.png);
+        height: 100%;
+        width: 37%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.greetings {
+    width: 63%;
+    background: #FFE5CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 780px) {
+    .greetings {
+        width: 100%;
+    }
+}
+
+.content__heading {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    /* identical to box height */
+    color: #25211D;
+    text-align: center;
+    margin: 0;
+}
+
+.description {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #25211D;
+}
+
+.greetings__button {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px 40px;
+    margin-right: 6px;
+}
+
+.greetings__button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.greetings__button:hover {
+    background: #2C5386;
+    box-shadow: 0px 4px 0px #25211D;
+    border-radius: 2px;
+    color: #FFE5CD;
+}
+
+.buttons {
+    margin-top: 33px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .content__heading {
+        font-size: 44px;
+        line-height: 65px;
+    }
+    .description {
+        text-align: center;
+    }
+}

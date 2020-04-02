@@ -1,0 +1,55 @@
+.musician__content{
+    background:  #FFE5CD;
+    height: 80%;
+    padding-left: 40px;
+    overflow-y: scroll;
+    padding-bottom: 40px;
+   
+    box-sizing: border-box;
+}
+.musician__content::-webkit-scrollbar {
+    display: none;
+  }
+  
+.musician__menu{
+    display: flex;
+   
+    margin-top: 13px;
+
+    
+}
+
+.musician__menu-item{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+cursor: pointer;
+color: #25211D;
+
+/* identical to box height */
+
+margin-right: 15px;
+}
+.musician__menu-item:hover{
+    color: #25436A;
+
+}
+@media screen and (max-width: 480px) {
+    .musician__content{
+        position: fixed;
+        top: 8%;
+    }
+    .musician__menu-item {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .musician__menu{
+        display: flex;
+       
+        margin-top: 33px;
+    
+        
+    }
+}

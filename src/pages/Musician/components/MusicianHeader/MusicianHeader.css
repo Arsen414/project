@@ -1,0 +1,67 @@
+.musician-page__header {
+    height: 229px;
+    display: flex;
+}
+
+.musician-page__button {
+    margin-top: 14px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    border: 1px solid #2C5386;
+    color: #2C5386;
+    cursor: pointer;
+    box-sizing: border-box;
+    background: none;
+    padding: 5px 15px;
+    height: 31px;
+    margin-right: 27px;
+}
+
+.musician-page__button:hover {
+    background: #2C5386;
+    color: #FFE5CD;
+    border: none;
+}
+
+.musician-page__info {
+    width: 25%;
+    margin-top: 45px;
+}
+
+.musician-page__img {
+    position: relative;
+    width: 75%;
+}
+
+.musician-page__img img {
+    height: 100%;
+    width: 100%;
+}
+
+.musician-page__img-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(61.75deg, #FFE5CD 24.08%, rgba(255, 229, 205, 0) 100%)
+}
+
+@media screen and (max-width: 480px) {
+    .musician__menu-item {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .musician-page__button {
+        margin-top: 5px;
+    }
+    .musician-page__img {
+        width: 50%;
+    }
+    .musician-page__info{
+        width: 50%;
+    }
+}

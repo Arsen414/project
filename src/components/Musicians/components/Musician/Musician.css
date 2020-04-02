@@ -1,0 +1,32 @@
+.musician {
+    margin-right: 65px;
+    cursor: pointer;
+}
+
+.musician:hover .item__title {
+    color: #2C5386;
+}
+
+.musician__img {
+    height: 90px;
+    width: 90px;
+}
+
+.round {
+    border-radius: 89px;
+    height: 90px;
+    width: 90px;
+}
+
+
+
+.musician__genre {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #25211D;
+    opacity: 0.7;
+}
