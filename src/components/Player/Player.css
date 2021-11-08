@@ -90,6 +90,16 @@
 
 @media screen and (max-width: 480px) {
     .player {
-       
+       padding: 0 10px;
+    }
+    .player__stop{
+        margin: 0 20px;
+    }
+    .track__name{
+        margin-left: 0;
+        font-size: 18px;
+    }
+    .player__actions {
+        margin-right: -20px;
     }
 }

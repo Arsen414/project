@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Playlists.css"
 import Playlist from './components/Playlist/Playlist'
+
 export default function Playlists() {
     const playlists = [{
         title : "Drive Music",

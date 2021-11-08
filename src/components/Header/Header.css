@@ -68,15 +68,15 @@
 
 @media screen and (max-width: 480px) {
     .menu__logo {
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 20px;
+        line-height: 20px;
     }
     .search {
         margin-left: 10px;
     }
     .header {
-        padding-right: 25px;
-        padding-left: 12px;
+        padding-right: 10px;
+        padding-left: 10px;
         position: fixed;
         top: 0;
         left: 0;
