@@ -3,6 +3,8 @@
 
 
 .charts-content {
+    display: flex;
+    justify-content: space-between;
     background: #FFE5CD;
     padding-left: 20px;
     padding-top: 65px;

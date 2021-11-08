@@ -1,5 +1,5 @@
 .playlists {
     display: flex;
-    position: fixed;
+    margin-top: -45px;
     overflow: hidden
 }

@@ -15,6 +15,7 @@
 }
 @media (max-width: 475px) {
     .content__title{
+     
         margin-bottom: 0;
     }
 }

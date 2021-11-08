@@ -13,9 +13,8 @@ export default function Charts() {
             <div className="charts-content">
                 <ContentTitle text="Top Playlists" />
                 <Playlists />
-                {/* <ContentTitle text="Top Musicians" /> */}
-                {/* <Musicians/> */}
-              
+                <ContentTitle text="Top Musicians" />
+                <Musicians/>
                 </div>
             <Player/>
         </>
