@@ -1,55 +1,72 @@
 .playlist {
-    margin-right: 50px;
-    margin-bottom: 16px;
+  margin-right: 50px;
+  margin-bottom: 16px;
 }
 
 .playlist__img {
-    border-radius: 5px;
-    width: 180px;
-    height: 186px;
+  border-radius: 5px;
+  width: 180px;
+  height: 186px;
 }
 
 .img-container {
-    position: relative;
+  position: relative;
 }
 
 .img-overlay {
-    background: linear-gradient(0deg, rgba(37, 33, 29, 0.8), rgba(37, 33, 29, 0.8));
-    border-radius: 5px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    max-height: 186px;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    cursor: pointer;
+  background: linear-gradient(
+    0deg,
+    rgba(37, 33, 29, 0.8),
+    rgba(37, 33, 29, 0.8)
+  );
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  max-height: 186px;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  cursor: pointer;
 }
 
 .playlist__img-overlay-img {
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    right: 63px;
-    top: 47px;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  right: 63px;
+  top: 47px;
 }
 
 .img-overlay:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
-
 .playlist__info-item {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 14px;
-    /* identical to box height */
-    color: #25211D;
-    opacity: 0.7;
-    margin-right: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #25211d;
+  opacity: 0.7;
+  margin-right: 10px;
+}
+@media (max-width: 475px) {
+  .playlist__img {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+  }
+  .playlist {
+      margin-top: 50px;
+  }
+  .playlist__info-item {
+    margin-right: 4px;
+    font-size: 13px;
+  }
 }
