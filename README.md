@@ -7,6 +7,11 @@
 
 ![screencapture-localhost-3000-login-2021-11-09-15_45_10](https://user-images.githubusercontent.com/79012453/140935119-b0de5163-8f85-4c9e-b590-d9f0bd6c42b7.png)
 
+![screencapture-localhost-3000-charts-2021-11-09-16_55_39](https://user-images.githubusercontent.com/73251273/140955325-8dbaad6b-00e5-4487-b6a0-495bcbcadd2d.png)
+
+![screencapture-localhost-3000-musicians-The-Midnight-2021-11-09-16_56_06](https://user-images.githubusercontent.com/73251273/140955363-3c7d14e8-0721-409e-958c-526c482e522e.png)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
